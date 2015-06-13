@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c15b6188-d977-40b2-9ce1-8e8e27875234" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_admin/data/config.php" afterPath="$PROJECT_DIR$/_admin/data/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_admin/module/site.php" afterPath="$PROJECT_DIR$/_admin/module/site.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_admin/template/siteBase.php" afterPath="$PROJECT_DIR$/_admin/template/siteBase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ghost_proxy.iws" />
     <ignored path=".idea/workspace.xml" />
