@@ -1,6 +1,7 @@
 <?php return array (
   'password' => '123456',
   'host' => 'http://www.baidu.com/',
+  'hostIP' => '180.97.33.107;180.97.33.108',
   'replaceDomain' => '0',
   'relativeHTML' => '0',
   'relativeCSS' => '0',

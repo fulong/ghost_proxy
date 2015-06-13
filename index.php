@@ -25,7 +25,21 @@
 		}
 	}
 	//获取要请求的url
-	$url = $config['host'].$uri;
+    $url = "";
+    if($config['hostIP'] == "")
+    {
+        $url = $config['host'].$uri;
+    }
+    else
+    {
+        $ip_array = explode(';',$config['hostIP']);
+        $ipIndex = 0;
+        if(count($ip_array) > 1)
+        {
+            $ipIndex=rand(0,count($ip_array) - 1);
+        }
+        $url = 'http://' . $ip_array[$ipIndex] .'/'. $uri;
+    }
 	//当前请求的文件后缀
 	$thisExt = pathinfo($_SERVER['PATH_INFO'],PATHINFO_EXTENSION);
 	//静态文件

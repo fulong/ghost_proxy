@@ -4,11 +4,16 @@
 		<form action="" method="POST">
 		<h2 class="section-header">基本信息</h2>
 		<?php
-			w('text')->set('name','需要代理的网址')
-					->set('key','host')
-					->set('value',d('config')->get('host'))
-					->set('tipe','整站需要反向代理的网址，如:http://www.baidu.com/')
-					->e();
+        w('text')->set('name','需要代理的网址')
+            ->set('key','host')
+            ->set('value',d('config')->get('host'))
+            ->set('tipe','整站需要反向代理的网址，如:http://www.baidu.com/')
+            ->e();
+        w('text')->set('name','代理网站的IP')
+            ->set('key','hostIP')
+            ->set('value',d('config')->get('hostIP'))
+            ->set('tipe','0.0.0.0;分号来分隔,这里有设置的话,域名会自动变成ip来做目标代理')
+            ->e();
 
 			w('select')->set('name','替换域名')
 					->set('key','replaceDomain')

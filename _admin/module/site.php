@@ -22,7 +22,8 @@ class site{
 	}
 	
 	function setBase(){
-		d('config')->set('host',$_POST['host']);
+        d('config')->set('host',$_POST['host']);
+        d('config')->set('hostIP',$_POST['hostIP']);
 		d('config')->set('replaceDomain',$_POST['replaceDomain']);
 		d('config')->set('relativeHTML',$_POST['relativeHTML']);
 		d('config')->set('relativeCSS',$_POST['relativeCSS']);
